@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato',sans-serif;
+}
+#fondo-pr{
+    background-image: url(./img/pizza.jpg);
+}
+#contenedor{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.cobertura{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 20px;
+
+}
+.fondo-marron{
+    background-color: brown;
+
+}
+.fondo-naranja{
+    background-color: orangered;
+    
+}
+
+#lista-cobertura {
+    list-style-type: none;
+}
